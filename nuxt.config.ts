@@ -4,7 +4,12 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
+    '@primevue/nuxt-module',
   ],
+
+  primevue: {
+    /* Configuration */
+  },
 
   eslint: {
     config: {
